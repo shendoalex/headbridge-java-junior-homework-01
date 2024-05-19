@@ -30,7 +30,8 @@ public class Task {
         if (numberToCheck <= 1) {
             checkResult = NUMBER_NOT_PRIME;
         } else {
-            for (int i = 2; i * i <= numberToCheck; i++) {
+            int middleNumber = numberToCheck / 2;
+            for (int i = 2; i <= middleNumber; i++) {
                 if (numberToCheck % i == 0) {
                     checkResult = NUMBER_NOT_PRIME;
                     break;
