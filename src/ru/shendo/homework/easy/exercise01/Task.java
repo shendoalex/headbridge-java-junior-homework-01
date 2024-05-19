@@ -18,15 +18,16 @@ public class Task {
         final String FIRST_NUMBER_IS_BIGGER = "Первое число больше второго.";
         final String SECOND_NUMBER_IS_BIGGER = "Второе число больше первого.";
         final String NUMBERS_ARE_EQUAL = "Числа равны.";
-        final String INPUT_NUMBER = "Введите число номер";
+        final String INPUT_DIALOG = "Введите число номер";
         int numberA;
         int numberB;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.printf(INPUT_NUMBER + " %d : ", 1);
+        System.out.printf(INPUT_DIALOG + " %d : ", 1);
         numberA = scanner.nextInt();
-        System.out.printf(INPUT_NUMBER + " %d : ", 2);
+        System.out.printf(INPUT_DIALOG + " %d : ", 2);
         numberB = scanner.nextInt();
+        scanner.close();
 
         if (numberA > numberB) {
             System.out.println(FIRST_NUMBER_IS_BIGGER);
