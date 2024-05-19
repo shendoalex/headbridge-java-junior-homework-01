@@ -2,6 +2,13 @@ package ru.shendo.homework.easy.exercise03;
 
 import java.util.Scanner;
 
+/*
+Определение времени суток:
+Пользователь вводит текущее время (часы), программа должна определить, утро, день, вечер или ночь.
+Входные данные 14
+Результат День
+ */
+
 public class Task {
     public static void main(String[] args) {
         determinePeriodOfTheDay();

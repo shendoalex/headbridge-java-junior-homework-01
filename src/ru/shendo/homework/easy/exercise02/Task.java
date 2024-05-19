@@ -1,13 +1,13 @@
 package ru.shendo.homework.easy.exercise02;
 
+import java.util.Scanner;
+
 /*
 Проверка на четность:
 Напишите программу, которая определяет, является ли введенное число четным или нечетным.
 Входные данные 12
 Результат Число четное.
  */
-
-import java.util.Scanner;
 
 public class Task {
     public static void main(String[] args) {

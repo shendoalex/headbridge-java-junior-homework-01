@@ -1,13 +1,13 @@
 package ru.shendo.homework.easy.exercise01;
 
+import java.util.Scanner;
+
 /*
 Сравнение чисел:
 Напишите программу, которая сравнивает два числа и определяет, равны ли они или одно больше другого.
 Входные данные 5 8
 Результат Первое число больше второго.
 */
-
-import java.util.Scanner;
 
 public class Task {
     public static void main(String[] args) {
