@@ -1,4 +1,4 @@
-package ru.shendo.homework.hard.exercise02;
+package ru.shendo.homework01.hard.exercise02;
 
 import java.util.Scanner;
 

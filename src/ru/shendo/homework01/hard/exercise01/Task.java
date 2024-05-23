@@ -1,4 +1,4 @@
-package ru.shendo.homework.hard.exercise01;
+package ru.shendo.homework01.hard.exercise01;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

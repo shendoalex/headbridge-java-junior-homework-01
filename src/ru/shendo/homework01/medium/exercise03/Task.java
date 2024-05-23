@@ -1,4 +1,4 @@
-package ru.shendo.homework.medium.exercise03;
+package ru.shendo.homework01.medium.exercise03;
 
 import java.util.Scanner;
 
